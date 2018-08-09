@@ -1,0 +1,678 @@
+.navbar, .navbar-brand{
+
+    background-color: #C4554F;
+    border-color: #AC4139;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+
+
+.salir:hover{
+    color:  #C4554F;
+    background-color: #FBF4F6;
+}
+
+
+.salir{
+
+    background-color: #C4554F;
+    color:  #FBF4F6;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    right: 0;
+    left: auto;
+    position: fixed;
+    padding-top: 12px;
+}
+
+
+.titulo{ font-size: 30px; color:  #FBF4F6; }
+.navbar-header{ padding-top: 5px; padding-left: 15px; }
+
+.menu_lat{ color : red; }
+
+
+#nombre{ font-size: 3rem; color: #337ab7;}
+
+.boton{ width: 200px; margin: 10px; height: 150px; font-size: 40px; background-color: #337ab7; color: #FBF4F6;}
+.boton:hover{ background-color:  #C4554F; color: #FBF4F6;}
+
+#text_boton{ font-size: 15px; }
+
+th{ text-align: center; }
+td{ text-align: center; vertical-align: middle;}
+.table>tbody>tr>td{ vertical-align: middle; }
+
+.btn_ac1, .btn_ac2{ height: 30px;  padding-top: 6px; font-size: 12px; color: #FFF5F6;}
+
+.btn_ac2{ background-color: #C65953; border-color: #732D26; }
+.btn_ac1{ background-color: #4DBF40; border-color: #256722; }
+
+.btn_ac2:hover{ background-color: #732D26; border-color: #C65953; color: #FFF5F6;}
+.btn_ac1:hover{ background-color: #256722; border-color: #4DBF40; color: #FFF5F6;}
+
+.titulo_modal{ background-color: white; color: #C4554F; text-align: center;}
+
+.panel-default{ border-color: #C4554F }
+
+.pTitle{ 
+    background-color:  #C4554F;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #FBF4F6;
+    border-color: #C4554F;
+}
+
+#imgSalida-prod, #imgSalida-pro, #imgSalida-spa, #imgSalida-med{ 
+    padding: 5px; display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    width:100%; 
+    height:2px; 
+    background-color:#337ab7;
+    border-radius: 4;
+}
+
+.seleccion{ width: 100% !important; }
+
+#data_consultas, #data_consultas2, #data_inv{ font-size: 12px; }
+
+#titulo_consultas, #titulo_consultas2, #data_title{ font-size: 12px; }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+
+.ui-autocomplete {
+    
+    padding: 8px;
+    padding-left: 12px;
+}
+.ui-autocomplete.source:hover {
+    background: #454545;
+}
+
+
+.navbar-collapse{
+      display: block !important;
+       overflow: visible !important;
+       height: auto !important;
+    padding-bottom: 0;
+    }
+/*
+
+ #imgSalida-1_1, #imgSalida-2_1, #imgSalida-3_1{
+
+   background-image: url('../imgPacientes/cara_perfil_1.png');
+background-size: 50%;
+
+
+}
+
+ #imgSalida-1_2, #imgSalida-2_2, #imgSalida-3_2{
+
+    background-image: url('../imgPacientes/cara_34tos_1.png');
+    background-size: 50%;
+
+}
+
+ #imgSalida-1_3, #imgSalida-2_3, #imgSalida-3_3{
+
+    background-image: url('../imgPacientes/cara_frente.png');
+    background-size: 50%;
+
+}
+
+ #imgSalida-1_4, #imgSalida-2_4, #imgSalida-3_4{
+
+    background-image: url('../imgPacientes/cara_34tos_2.png');
+    background-size: 50%;
+
+}
+
+ #imgSalida-1_5, #imgSalida-2_5, #imgSalida-3_5{
+
+    background-image: url('../imgPacientes/cara_perfil_2.png');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_1, #imgSalida-5_1, #imgSalida-6_1{
+
+    background-image: url('../imgPacientes/Cuerpo_completo_p1.jpg');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_2, #imgSalida-5_2, #imgSalida-6_2{
+
+    background-image: url('../imgPacientes/cuerpo_completo_34tos_1.jpg');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_3, #imgSalida-5_3, #imgSalida-6_3{
+
+    background-image: url('../imgPacientes/cuerpo_completo_frente.jpg');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_4, #imgSalida-5_4, #imgSalida-6_4{
+
+    background-image: url('../imgPacientes/cuerpo_completo_34tos_2.jpg');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_5, #imgSalida-5_5, #imgSalida-6_5{
+
+    background-image: url('../imgPacientes/cuerpo_completo_p2.jpg');
+    background-size: 50%;
+
+}
+
+ #imgSalida-4_6, #imgSalida-5_6, #imgSalida-6_6{
+
+    background-image: url('../imgPacientes/cuerpo_completo_espalda.jpg');
+    background-size: 50%;
+
+}
+
+*/
+
+
+
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+/*@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}*/
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #000;
+}
+
+@media(min-width:168px) {
+    .side-nav>li>ul>li>a {
+        display: block;
+        padding: 10px 15px 10px 38px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .side-nav>li>ul>li>a:hover {
+        color: #18bc9c;
+    }
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+
+@media(min-width:168px) {
+    .side-nav {
+        position: fixed;
+        top: 60px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        border-right: 2px outset rgba(37, 37, 37, 0.05); 
+        overflow-y: auto;
+        background-color: #fff;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+        
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #f3f3f3 !important;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: #000;
+    }
+}
+
+#menu_lateral{
+    
+    display:none;
+}
+
+
+#bloqueAF{
+
+    background-color: #337ab7; border-radius: 16px; padding: 20px; margin: 40px;
+}
+
+#SI{
+
+    padding-right: 36px;
+}
+
+  #titulo_consultas_pacientes {
+        font-size: 14px;
+    }
+  #data_consultas_pacientes{
+        font-size: 13px;
+    }
+
+
+ #titulo_consultas_corte {
+        font-size: 14px;
+    }
+  #data_consultas_corte{
+        font-size: 13px;
+    } 
+
+ #titulo_consultas_alerta {
+        font-size: 14px;
+    }
+  #data_consultas_alerta{
+        font-size: 13px;
+    }
+
+    #agregar{
+
+        font-size: 14px;
+    }  
+
+
+
+@media screen and (max-width: 1130px) {    
+
+    #textEF_titulos_ext{
+
+        font-size: 12.5px;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+  #textPC{
+        font-size: 11px;
+    }
+  #titulo_consultas {
+        font-size: 9px;
+    }
+  #data_consultas{
+        font-size: 9px;
+    }
+
+  #titulo_consultas_pacientes {
+        font-size: 10px;
+    }
+  #data_consultas_pacientes{
+        font-size: 10px;
+    }
+
+    .btn_ac1{
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .btn_ac2{
+        font-size: 10px;
+    }
+
+    #textAF{
+        font-size: 14px;
+    }
+
+    #bloqueAF{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #SI{
+
+        padding-right: 6px;
+    }
+
+    #textAGO{
+
+        font-size: 12px;
+    }
+
+    #textAGO_titulos{
+
+        font-size: 12px;
+    }
+
+    #textEF_titulos{
+
+        font-size: 10px;
+    }
+
+    #titulo_consultas_corte {
+        font-size: 7px;
+    }
+  #data_consultas_corte{
+        font-size: 7px;
+    } 
+
+    #titulo_consultas_alerta {
+        font-size: 9px;
+    }
+  #data_consultas_alerta{
+        font-size: 9px;
+    }  
+
+    #agregar{
+
+        font-size: 11px;
+        padding-left: 5px;
+    } 
+
+
+} 
+
+
+@media screen and (max-width: 800px) {
+
+  #titulo_consultas {
+        font-size: 7px;
+    }
+  #data_consultas{
+        font-size: 6px;
+    }
+  #titulo_consultas2 {
+        font-size: 9px;
+    }
+  #data_consultas2{
+        font-size: 9px;
+    }
+   #data_title {
+        font-size: 9px;
+    }
+    #data_inv
+    {
+        font-size: 9px;
+    }
+  #titulo_consultas_pacientes {
+        font-size: 7px;
+    }
+  #data_consultas_pacientes{
+        font-size: 6px;
+    }
+
+    .btn_ac1{
+        font-size: 8px;
+        padding: 2px;
+    }
+
+    .btn_ac2{
+        font-size: 9px;
+    }
+
+   #agenda_results{
+        font-size: 12px;
+    }
+
+    #bloqueAF{
+        margin: 10px;
+    }
+
+    #SI{
+
+        padding-right: 36px;
+    }
+
+    #textAGO{
+
+        font-size: 16px;
+    }
+
+    #textAGO_titulos{
+
+        font-size: 16px;
+    }
+
+    #textEF_titulos{
+
+        font-size: 16px;
+    }
+
+    #textPC{
+        font-size: 14px;
+    }
+
+    #agregar{
+
+        font-size: 14px;
+    } 
+
+
+    #titulo_consultas_corte {
+        font-size: 6px;
+    }
+  #data_consultas_corte{
+        font-size: 5px;
+    } 
+
+    #titulo_consultas_alerta {
+        font-size: 7px;
+    }
+  #data_consultas_alerta{
+        font-size: 6px;
+    }
+
+ 
+
+
+} 
+
+
